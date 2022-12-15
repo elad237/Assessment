@@ -66,7 +66,7 @@ We chose the TV Maze API, this API gave us access to top tv shows.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://elad237.github.io/javascript-capstone/dist/)
+- [Live Demo Link](https://elad237.github.io/Assessment/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
