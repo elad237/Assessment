@@ -1,8 +1,8 @@
-import checkForLikes from './checkForLikes';
-import randomString from './randomString';
-import liked from './liked';
+import checkForLikes from './checkForLikes.js';
+import randomString from './randomString.js';
+import liked from './liked.js';
 
-const loadApi = async () => {
+const getApi = async () => {
   const response = await fetch(
     `https://api.tvmaze.com/search/shows?q=${randomString(1)}`,
   );
@@ -82,4 +82,4 @@ const loadApi = async () => {
   }
 };
 
-export default loadApi;
+export default getApi;
