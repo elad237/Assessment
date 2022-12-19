@@ -1,6 +1,6 @@
 import getMovieDetails from './getMovieDetails.js';
 
-const getComment = () => {
+const showComment = () => {
   const popup = document.querySelector('.popup');
 
   const showComment = document.querySelectorAll('.showComment');
@@ -14,4 +14,4 @@ const getComment = () => {
   });
 };
 
-export default getComment;
+export default showComment;
