@@ -1,10 +1,10 @@
 import getMovieDetails from './getMovieDetails.js';
 
-const postCommentMethod = () => {
+const showComment = () => {
   const popup = document.querySelector('.popup');
 
-  const postComment = document.querySelectorAll('.postComment');
-  postComment.forEach((submitButton) => {
+  const showComment = document.querySelectorAll('.showComment');
+  showComment.forEach((submitButton) => {
     submitButton.addEventListener('submit', (event) => {
       event.preventDefault();
       const movieId = submitButton.querySelector('#movieId').value;
@@ -14,4 +14,4 @@ const postCommentMethod = () => {
   });
 };
 
-export default postCommentMethod;
+export default getComment
