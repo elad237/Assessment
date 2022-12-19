@@ -17,4 +17,4 @@ const postComment = async (movieId, name, description) => {
   // do something with myJson
 };
 
-export default postComment;
+export default showComment;
