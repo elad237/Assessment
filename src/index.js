@@ -2,6 +2,7 @@ import './css/style.css';
 import loadApi from './module/getApi.js';
 import getLikes from './module/getLikes.js';
 import getComment from './module/comments/getComment.js';
+import showComment from './module/comments/showComment.js';
 
 const getLikesFirst = new Promise((resolve) => {
   getLikes();
@@ -17,7 +18,7 @@ getLikesFirst.then(() => {
       resolve('done');
     }, 300);
   }).then(() => {
-    postCommentMethod();
+    showComment();
   });
 });
 
