@@ -1,7 +1,7 @@
 import './css/style.css';
-import loadApi from './module/getApi';
-import getLikes from './module/getLikes';
-import getComment from './module/comments/getComment';
+import loadApi from './module/getApi.js';
+import getLikes from './module/getLikes.js';
+import getComment from './module/comments/getComment.js';
 
 const getLikesFirst = new Promise((resolve) => {
   getLikes();
@@ -12,7 +12,7 @@ const getLikesFirst = new Promise((resolve) => {
 
 getLikesFirst.then(() => {
   new Promise((resolve) => {
-    loadApi();
+    getApi();
     setTimeout(() => {
       resolve('done');
     }, 300);
