@@ -1,4 +1,4 @@
-const postComment = async (movieId, name, description) => {
+const showComment = async (movieId, name, description) => {
   const data = `{"item_id": "${movieId}", "username": "${name}", "comment": "${description}"}`;
 
   const mBody = JSON.parse(data);
