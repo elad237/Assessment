@@ -1,7 +1,6 @@
 import './css/style.css';
 import getApi from './module/getApi.js';
 import getLikes from './module/getLikes.js';
-import getComment from './module/comments/getComment.js';
 import showComment from './module/comments/showComment.js';
 
 const getLikesFirst = new Promise((resolve) => {

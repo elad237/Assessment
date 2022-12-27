@@ -1,4 +1,4 @@
-import getItems from '../src/module/__mocks__/getApi';
+import getItems from '../src/module/comments/getApi.js';
 
 describe('Add tests for Items counter', () => {
   it("Search with Search Query 'q' - Output: 10", async () => {
