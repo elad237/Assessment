@@ -89,7 +89,7 @@ const getMovieDetails = async (movieId) => {
     const comment = addComment.querySelector('textarea[name="comment"]').value;
     const movieId = addComment.querySelector('input[name="movieId"]').value;
 
-    postComment(movieId, name, comment);
+    showComment(movieId, name, comment);
     Swal.fire({
       title: 'Success!',
       text: 'Your comment has been added',

@@ -1,5 +1,4 @@
-import getComments from '../src/module/comments/comments.js';
-
+import getComments from '../src/module/comments/comment.js';
 describe('Add tests for comments counter', () => {
   it('Three Comments in a movie - Output: 3', async () => {
     const commentsNumber = await getComments(53881); // Run the function
