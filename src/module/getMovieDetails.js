@@ -1,6 +1,5 @@
-import Swal from 'sweetalert2';
-import postComment from './postComment';
-import getComments from './comments';
+import showComment from './showComment.js';
+import getComments from './comments.js';
 
 const getMovieDetails = async (movieId) => {
   const response = await fetch(`https://api.tvmaze.com/shows/${movieId}`);
