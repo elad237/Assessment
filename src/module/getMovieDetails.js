@@ -1,6 +1,5 @@
 import showComment from './showComment';
 import getComments from './comments';
-import showComment from './comments/getComment';
 
 const getMovieDetails = async (movieId) => {
   const response = await fetch(`https://api.tvmaze.com/shows/${movieId}`);
