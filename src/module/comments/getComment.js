@@ -1,4 +1,4 @@
-import getMovieDetails from '../src/module/getMovieDetails.js';
+import getMovieDetails from '.getMovieDetails.js';
 
 const showComment = () => {
   const popup = document.querySelector('.popup');
