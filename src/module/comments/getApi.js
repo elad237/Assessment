@@ -1,4 +1,4 @@
-import fetch from '../src/module/comments/getComments.js';
+import fetch from 'getComments.js';
 
 const getItems = async (searchQuery) => {
   const response = await fetch(
