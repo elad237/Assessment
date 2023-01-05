@@ -1,4 +1,4 @@
-import fetch from 'cross-fetch';
+import fetch from '../src/module/comments/getComments.js';
 
 const getItems = async (searchQuery) => {
   const response = await fetch(
